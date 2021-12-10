@@ -75,5 +75,12 @@ class ViewController: UIViewController {
             self.number = Int.random(in: 1...50)
             self.label.text = String(self.number)
             }
+    
+    @IBAction func showNextScreen() {
+        
+    }
+    
+    
+    
         }
 

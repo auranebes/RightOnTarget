@@ -52,7 +52,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="xhf-EB-dR8" kind="show" id="tsb-LO-enD"/>
+                                    <action selector="showNextScreen" destination="BYZ-38-t0r" eventType="touchUpInside" id="WrW-vH-7CI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,9 +101,6 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" systemColor="systemGray4Color"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="MqW-Zg-1kc"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FOQ-K9-m5o"/>
