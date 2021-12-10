@@ -101,6 +101,9 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" systemColor="systemGray4Color"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="hideScreen" destination="F92-cY-Pem" eventType="touchUpInside" id="Qzy-T6-6aM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FOQ-K9-m5o"/>
@@ -113,6 +116,7 @@
                     <navigationItem key="navigationItem" id="iCO-OP-YkV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SzN-h5-ojB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="F92-cY-Pem" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="19" y="-674"/>
         </scene>

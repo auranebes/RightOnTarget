@@ -77,9 +77,15 @@ class ViewController: UIViewController {
             }
     
     @IBAction func showNextScreen() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let secondViewController = storyboard.instantiateViewController(withIdentifier: "SecondViewController")
+        self.present(secondViewController, animated: true, completion: nil)
         
     }
     
+    @IBAction func hideScreen() {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     
         }
