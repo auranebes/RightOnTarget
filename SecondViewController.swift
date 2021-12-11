@@ -39,6 +39,9 @@ class SecondViewController: UIViewController {
         print("ViewDidDisapear")
     }
     
+    @IBAction func hideScreen() {
+        self.dismiss(animated: true, completion: nil)
+    }
     
 
     /*

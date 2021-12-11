@@ -83,7 +83,7 @@
         <!--Second View Controller-->
         <scene sceneID="gG3-9r-TSw">
             <objects>
-                <viewController id="xhf-EB-dR8" customClass="SecondViewController" customModule="RightOnTarget" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="xhf-EB-dR8" customClass="SecondViewController" customModule="RightOnTarget" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dhx-xl-pVB">
                         <rect key="frame" x="0.0" y="0.0" width="926" height="428"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,7 +102,8 @@
                                     <color key="baseBackgroundColor" systemColor="systemGray4Color"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="hideScreen" destination="F92-cY-Pem" eventType="touchUpInside" id="Qzy-T6-6aM"/>
+                                    <action selector="hideScreen" destination="xhf-EB-dR8" eventType="touchUpInside" id="8Fm-U8-b6U"/>
+                                    <action selector="hideScreen" destination="F92-cY-Pem" eventType="touchUpInside" id="gDc-bA-0eq"/>
                                 </connections>
                             </button>
                         </subviews>
